@@ -1,0 +1,8 @@
+PROCEDURE dot_produc(vector1, vector2, ps)
+VAR
+    vector1 = [4, 1, 1]
+    vector2 = [5, 3, 8]
+BEGIN
+    For(i = 0; i < vector1.length; i++)
+    result += vector1[i] * vector2[i]
+END

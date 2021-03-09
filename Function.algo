@@ -1,0 +1,21 @@
+FUNCTION DotProduct(vector1, vector2) : INTEGER
+VAR
+   vector1 = [4, 1, 1]
+   vector2 = [5, 3, 8]
+BEGIN
+    result = 0
+    For(i = 0; i < vector1.length; i++)
+        result += vector1[i] * vector2[i]
+        return result
+    END_FOR
+  
+  
+  For(i = 0; i < vector1.length; i++)
+    For(j = i + 1; j < vector2.length; j++)
+      If (dotProduct(vector[i], vector[j]) === 0)
+          Write("vector[i]} and vector[j] are orthogonal")
+      End_If
+    END_FOR
+  END_FOR  
+END
+
